@@ -1,0 +1,7 @@
+.react-aria-Dialog {
+    outline: none;
+    padding: 10px 20px;
+    max-height: inherit;
+    box-sizing: border-box;
+    overflow: auto;
+}
