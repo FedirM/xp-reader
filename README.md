@@ -14,21 +14,21 @@ Fully free to use with pre-installed ollama model!
 1. Select your preferable language from the dropdown.
 2. Write down text in the editor below.
 
-![editor picture](https://github.com/FedirM/xp-reader/screenshots/editor.png)
+![editor picture](./screenshots/editor.png)
 
 3. Hit "Go reading" button.
 
-![editor picture](https://github.com/FedirM/xp-reader/screenshots/reader.png)
+![editor picture](./screenshots/reader.png)
 
 - Click on word you'd like to translate.
 
-![editor picture](https://github.com/FedirM/xp-reader/screenshots/tr_word.png)
+![editor picture](./screenshots/tr_word.png)
 
 - If you'd like to translate substring or sentence just press and hover your needs.
 
-![editor picture](https://github.com/FedirM/xp-reader/screenshots/tr_phrase.png)
+![editor picture](./screenshots/tr_phrase.png)
 
-![editor picture](https://github.com/FedirM/xp-reader/screenshots/tr_phrase_2.png)
+![editor picture](./screenshots/tr_phrase_2.png)
 
 # Tech stack
 
