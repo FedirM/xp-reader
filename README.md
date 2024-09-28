@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# Reader (code name: XP-Reader)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a test project to test ready-to-use ML models like: ollama-3.1, mistral-nemo, gemma-2
 
-## Available Scripts
+The key goal of this application is to get all you need to read a text on foreign language. There are two main features:
 
-In the project directory, you can run:
+- Get voca nest for word/phrase.
+- Get translation for part of sentence(s)/passage.
 
-### `npm start`
+Fully free to use with pre-installed ollama model!
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# How does it work?
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Select your preferable language from the dropdown.
+2. Write down text in the editor below.
 
-### `npm test`
+![editor picture](https://github.com/FedirM/xp-reader/screenshots/editor.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. Hit "Go reading" button.
 
-### `npm run build`
+![editor picture](https://github.com/FedirM/xp-reader/screenshots/reader.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Click on word you'd like to translate.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![editor picture](https://github.com/FedirM/xp-reader/screenshots/tr_word.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- If you'd like to translate substring or sentence just press and hover your needs.
 
-### `npm run eject`
+![editor picture](https://github.com/FedirM/xp-reader/screenshots/tr_phrase.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![editor picture](https://github.com/FedirM/xp-reader/screenshots/tr_phrase_2.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Tech stack
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+_Back-end_: Rust (tauri, serde_json, ollama-rs, tokio, lazy_static)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+_Front-end_: ReactJS (Adobe-spectrum, Adobe-aria, Tailwind)
