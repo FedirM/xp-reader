@@ -1,6 +1,6 @@
 # Reader (code name: XP-Reader)
 
-This is a test project to test ready-to-use ML models like: ollama-3.1, mistral-nemo, gemma-2
+The project are my efforts to make use of (LLMs) like: ollama-3.1, mistral-nemo, gemma-2
 
 The key goal of this application is to get all you need to read a text on foreign language. There are two main features:
 
@@ -11,8 +11,8 @@ Fully free to use with pre-installed ollama model!
 
 # How does it work?
 
-1. Select your preferable language from the dropdown.
-2. Write down text in the editor below.
+1. Select the target language from the dropdown.
+2. Paste or input the source text into editor below.
 
 ![editor picture](./screenshots/editor.png)
 
@@ -20,11 +20,11 @@ Fully free to use with pre-installed ollama model!
 
 ![editor picture](./screenshots/reader.png)
 
-- Click on word you'd like to translate.
+- Click on the word you'd like to translate.
 
 ![editor picture](./screenshots/tr_word.png)
 
-- If you'd like to translate substring or sentence just press and hover your needs.
+- To translate a sentence or segment of text just press and hover your needs.
 
 ![editor picture](./screenshots/tr_phrase.png)
 
